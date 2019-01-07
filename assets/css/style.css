@@ -217,6 +217,10 @@ input[type=submit] {
 }
 
 @media screen and (max-width: 980px) {
+  header {
+    position: static;
+  }
+  
   body {
     width: 100%;
     float: left;
@@ -252,6 +256,10 @@ input[type=submit] {
 }
 
 @media screen and (max-width: 768px) {
+  header {
+    position: static;
+  }
+  
   body {
     width: 100%;
     float: left;
